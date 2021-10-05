@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character To Length</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 62.5%;
+        }
+        body {
+            background-color: #ddd;
+            text-align: center;
+        }
+
+        .test {
+            text-align: start;
+            width: 70rem;
+            color: #fff;
+            margin: auto;
+            background-color: red;
+            padding: 3rem;
+            font-size: 4rem;
+            border-radius: 1rem;
+            margin-top: 5rem;
+            box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.438);
+        }
+
+        a.btn {
+            margin-top: 5rem;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+            background-color: green;
+            color: #fff;
+            border-radius: 1rem;
+            display: block;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            color: rgb(44, 44, 44);
+            font-size: 2rem;
+            margin-top: 3rem;
+        }
+
+        .ftr_link {
+            color: rgb(216 255 0);
+            font-weight: bold;
+            text-decoration: none;
+        }
+        @media screen and (max-width:800px) {
+            html{
+                font-size: 45.5%;
+            }
+        }
+        @media screen and (max-width:600px) {
+            html{
+                font-size: 30.5%;
+            }
+        }
+        @media screen and (max-width:400px) {
+            html{
+                font-size: 20.5%;
+            }
+        }
+        @media screen and (max-width:250px) {
+            html{
+                font-size: 15%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="test">
+        <script>
+            var character = (prompt("Enter Your Character :"));
+            document.write("Your Total Characters Length = " + character.length)
+        </script>
+        <a class="btn" href="./index.html">Reset Now</a>
+        <footer> &copy; 2021 All Right Riserved By <a class="ftr_link" href="https://www.facebook.com/fcr.hasan/">Fcr Hasan</a> </footer>
+    </div>
+</body>
+
+</html>
